@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>phoenix os</title>
+<link rel="stylesheet" type="text/css" href="sri.css">
+
+<style>body{margin: 0; position: relative;}
+body.pop-up{background: #222;}
+*{
+  font-family: Calibri, sans-serif; 
+  font-weight: normal;
+  color: #333;
+}
+h1{
+  font-size: 48px;
+  margin: 10px 0;
+}
+p{
+  margin-bottom: 40px;
+}
+#pop-up{
+  position: relative; 
+  top: 200px; 
+  width: 500px; 
+  margin: 0 auto; 
+  text-align: center;
+}
+#pop-up .container{
+  background: #f0e4d4; 
+  padding: 30px; 
+  position: absolute; 
+  top: 50px; 
+  width: 100%; 
+  box-sizing: border-box;
+}
+#pop-up a{
+  padding: 10px;
+  border: 0;
+  border-radius: 10px  ;
+  border: 1px solid black;
+  font-size: 18px;
+  background-color:blue;
+  color:white;
+  font-family:cursive;
+}
+.close{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #555;
+  color: #ddd;
+  font-weight: bold;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  border-radius: 11px;
+}
+
+
+.close:hover,.close:focus{
+color:red;
+cursor:pointer;
+}
+
+
+
+
+/*// POP-UP ANIMATION STYLES //*/
+#pop-up{
+top:-850px;
+animation:drop 0.5s ease forwards,swing 2s 3s ease forwards;
+}
+
+@keyframes drop{
+0%{opacity:0;}
+70%{transform:translatey(700px)}
+100%{transform:translatey(650px);,opacity:1;}
+}
+
+@keyframes swing{
+0%{transform:translatey(650px) rotatez(0deg)}
+40%{transform:translatey(650px) rotatez(90deg)}
+70%{transform:translatey(650px) rotatez(70deg)}
+100%{transform:translatey(650px) rotatez(75deg)}
+}
+
+
+
+/*// BASKET BASE STYLES //*/
+
+header{
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+header:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.basket ul{
+  padding: 0;
+  margin-top: 40px;
+}
+.basket li{
+  display: inline-block;
+  list-style-type: none;
+  width: 30%;
+  margin: 30px 1.5%;
+  text-align: center;
+}
+.basket button{
+  border-radius: 10px;
+  cursor: pointer;
+}
+.basket header div{
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+.basket header h1{
+  float: left;
+}
+
+
+#nav
+{
+
+
+height:35px;
+margin:left:80px;
+}
+a
+{
+color:blue;
+text-decoration:none;
+vertical-align:middle;
+margin-right:10px;
+font-size:20px;
+border:2px solid grey;
+cursor:pointer;
+opacity:0.7;
+border-radius:5px;
+padding:8px;
+font-family:cursive;
+font-weight:bold;
+
+
+}
+#nav ul
+{
+padding:0px;
+
+font-family:arial;
+font-weight:bold;
+text-align:center;
+position:fixed;
+margin-top:10px;
+
+
+}
+#nav li
+{
+display:inline;
+vertical-align:middle;
+padding:8px 20px 20px 8px;
+height:10px;
+
+}
+a:hover
+{
+color:#FF4500;
+opacity:1;
+}
+
+#charu p{
+margin-left:50%;
+position:relative;
+margin-top:80px;
+
+
+}
+#charu a{
+border:2px solid grey;
+padding:8px;
+background-color:green;
+position:absolute;
+margin-left:620px;
+margin-top:-40px;
+
+}
+
+#charu a:hover{
+background-color:#FF4500;
+color:black;
+opacity:0.7;
+}
+
+
+</style>
+</head>
+
+
+
+
+<body>
+<div id="nav">
+<ul>
+<li><a href="sri.html">home</a></li>
+<li><a href="time.html">book</a></li>
+<li><a href="contact.html">contact</a></li>
+
+
+</ul>
+
+
+
+</div>
+
+
+<h1>Phoenix Os</h1>
+<h2>What is phoenix os&#63</h2>
+<p><b>Phoenix Os</b> is a free,lightweight desktop environment for <b> android apps</b>.It was a taskbar,desktop icons,file management,and multi-window support.</p>
+
+
+<br>
+
+<h2>Latest version of Phonix Os:</h2>
+<p>Phoenix OS 3.5.0 LATEST.<b> Requirements:</b> Windows 7 / Windows 7 64 / Windows 8 / Windows 8 64 / Windows 10 / Windows 10 64.</p>
+<div class="pop-up">
+<div id="pop-up">
+    <img src="ninja.png">
+    <div class="container">
+      <h1>Stupid brain</h1>
+      <p>Joining our youtube channel for knowing stupid things.</p>
+     <div class="link"> <a href="https://www.youtube.com/channel/UC_2gGZ6qKTKpKcF9Q9enq2g?view_as=subscriber">Touch to subscribe our channel</a></div>
+      
+     <div class="close">x</div> 
+    </div>
+  </div>
+
+</div>
+<br>
+<h2>Is Phoenix Os safe for PC&#63</h2>
+<p><b>Phoneix Os</b> is the best operating system but not for security purposes.You can use <b>Phoenix Os</b> like new variationon PC.And you can also enjoy android apps on your PC. 
+<br><br>
+<h3>click below to download Phoenix Os.</h3>
+<div id="charu">
+<a href="https://gplinks.co/d0EJ">download</a><p>or</p>
+<a href="https://onotepad.com/note/okxegbhxfy1/870553">download</a>
+</div>
+
+<script>document.querySelector(".close").addEventListener("click",function(){
+document.querySelector(".pop-up").style.display="none"
+
+
+
+});
+</script>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+
+
+
+</body>
+</html>   
